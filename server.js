@@ -6,3 +6,5 @@ var instructionsNewVisitor = function(req, res) {
     }
     
 var server = http.createServer(instructionsNewVisitor);
+
+server.listen(8080);
